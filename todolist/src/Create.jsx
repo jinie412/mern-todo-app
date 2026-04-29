@@ -13,7 +13,7 @@ function Create() {
       .catch((error) => console.log(error));
   };
   return (
-    <div>
+    <div className="create_form">
       <input
         type="text"
         name="create_form input"
